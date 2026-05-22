@@ -1,0 +1,54 @@
+# Python environment
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.noseids
+.installsuite/
+
+# Flask / Web Assets
+instance/
+.webassets-cache
+
+# Local configurations and secrets
+.env
+*.env
+local_settings.py
+
+# Databases (SQLite / Local dumps)
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# User uploads and runtime files
+uploads/
+*.log
+
+# OS specific files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Architecture Documentation & Development Planning
+Goals.md
+docs/Context.md
+*.pdf
+
